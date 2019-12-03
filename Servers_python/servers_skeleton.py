@@ -11,6 +11,13 @@ class Product:
         self.name = name
         self.price = price
 
+    def __hash__(self):
+        return hash((self.name, self.price))
+
+    def __eq__(self, other):
+        return self.name == other.name and self.price == other.price
+
+
 
 class TooManyProductsFoundError(Exception):
     pass

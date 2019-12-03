@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b4b269-c4d9-4179-b99e-8b0f60270191" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/servers_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers_skeleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers_skeleton.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,25 +12,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Servers_python$Unittests_in_servers_tests_py.coverage" NAME="Unittests in servers_tests.py Coverage Results" MODIFIED="1575378953415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Servers_python$Unittests_in_servers_tests_py.coverage" NAME="Unittests in servers_tests.py Coverage Results" MODIFIED="1575402423044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Servers_python$servers_skeleton.coverage" NAME="servers_skeleton Coverage Results" MODIFIED="1574508671616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servers_skeleton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="299">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servers_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1771">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#42#57#0" expanded="true" />
               </folding>
@@ -45,16 +46,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/servers_skeleton.py" />
         <option value="$PROJECT_DIR$/servers_tests.py" />
+        <option value="$PROJECT_DIR$/servers_skeleton.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="950" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,6 +153,7 @@
       <updated>1574503623930</updated>
       <workItem from="1574503625195" duration="5060000" />
       <workItem from="1575376703379" duration="2250000" />
+      <workItem from="1575402309126" duration="214000" />
     </task>
     <servers />
   </component>
@@ -180,14 +182,20 @@
     <history-entry file="Unittests_in_servers_tests_py - 2019.12.03 at 14h 15m 53s.xml">
       <configuration name="Unittests in servers_tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_servers_tests_py - 2019.12.03 at 20h 45m 14s.xml">
+      <configuration name="Unittests in servers_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_servers_tests_py - 2019.12.03 at 20h 47m 03s.xml">
+      <configuration name="Unittests in servers_tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7310000" />
+    <option name="totallyTimeSpent" value="7524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07181208" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07248322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -214,20 +222,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/servers_skeleton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servers_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1771">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#42#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers_skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
