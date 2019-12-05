@@ -1,9 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#Michal Welna 302935
+
 import unittest
 from collections import Counter
 
-from servers_skeleton import Server, ListServer, Product, Client, MapServer, TooManyProductsFoundError, NotEnoughProductsFoundError
+from servers import Server, ListServer, Product, Client, MapServer, TooManyProductsFoundError, NotEnoughProductsFoundError
 
 server_types = (ListServer, MapServer)
 

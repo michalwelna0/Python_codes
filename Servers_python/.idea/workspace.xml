@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8b4b269-c4d9-4179-b99e-8b0f60270191" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servers_skeleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers_skeleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers_skeleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/servers_skeleton.py">
+        <entry file="file://$PROJECT_DIR$/servers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="230">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -29,11 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servers_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1771">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="e#42#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -46,16 +44,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/servers_tests.py" />
         <option value="$PROJECT_DIR$/servers_skeleton.py" />
+        <option value="$PROJECT_DIR$/servers_tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1049" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,7 +61,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,6 +72,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in servers_tests.py">
+  <component name="RunManager" selected="Python.servers_skeleton">
     <configuration name="servers_skeleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Servers_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +108,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/servers_skeleton.py" />
+      <option name="SCRIPT_NAME" value="C:\Python_codes\Servers_python\servers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,6 +152,8 @@
       <workItem from="1574503625195" duration="5060000" />
       <workItem from="1575376703379" duration="2250000" />
       <workItem from="1575402309126" duration="214000" />
+      <workItem from="1575409765068" duration="607000" />
+      <workItem from="1575566578801" duration="731000" />
     </task>
     <servers />
   </component>
@@ -190,12 +190,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7524000" />
+    <option name="totallyTimeSpent" value="8862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07248322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,18 +224,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/servers_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#42#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servers_skeleton.py">
+    <entry file="file://$PROJECT_DIR$/servers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="230">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
