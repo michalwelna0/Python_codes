@@ -23,9 +23,6 @@ class Product:
 class TooManyProductsFoundError(Exception):
     pass
 
-class NotEnoughProductsFoundError(Exception):
-    pass
-
 
 class Server(ABC):
     def __init__(self, product_list: List[Product]):
