@@ -54,7 +54,7 @@ class ListServer(Server):
                 list_products.append(prod)
         if len(list_products) > self.n_max_returned_entries:
             raise TooManyProductsFoundError
-        if not list_products:
+        if list_products is []:
             return list_products
         return sorted(list_products, key = lambda product: product.price)
 

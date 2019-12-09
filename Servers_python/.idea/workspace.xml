@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8b4b269-c4d9-4179-b99e-8b0f60270191" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/servers.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servers_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Servers_python$Unittests_for_servers_tests_CheckIfisNoneinListServer_test_None_If_tooMany.coverage" NAME="Unittests for servers_tests.CheckIfisNoneinListServer.test_None_If_tooMany Coverage Results" MODIFIED="1575903986583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Servers_python$Unittests_for_servers_tests_NotEnoughProductsTest.coverage" NAME="Unittests for servers_tests.NotEnoughProductsTest Coverage Results" MODIFIED="1575904837523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Servers_python$Unittests_in_servers_tests_py.coverage" NAME="Unittests in servers_tests.py Coverage Results" MODIFIED="1575906671464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Servers_python$Unittests_in_servers_tests_py.coverage" NAME="Unittests in servers_tests.py Coverage Results" MODIFIED="1575907179213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Servers_python$Unittests_for_servers_tests_CheckIfisNoneinListServer_test_None_If_not_enough.coverage" NAME="Unittests for servers_tests.CheckIfisNoneinListServer.test_None_If_not_enough Coverage Results" MODIFIED="1575904095923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Servers_python$Unittests_for_servers_tests_NotEnoughProductsTest_test_raise_error.coverage" NAME="Unittests for servers_tests.NotEnoughProductsTest.test_raise_error Coverage Results" MODIFIED="1575904609345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Servers_python$Unittests_for_servers_tests_ServerTest.coverage" NAME="Unittests for servers_tests.ServerTest Coverage Results" MODIFIED="1575903225664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-416">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -71,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,7 +82,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,13 +213,11 @@
       <workItem from="1575566578801" duration="731000" />
       <workItem from="1575902968886" duration="3473000" />
       <workItem from="1575906635162" duration="52000" />
+      <workItem from="1575907162148" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_servers_tests_py - 2019.12.09 at 16h 30m 25s.xml">
-      <configuration name="Unittests in servers_tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_servers_tests_py - 2019.12.09 at 16h 34m 11s.xml">
       <configuration name="Unittests in servers_tests.py" configurationId="tests" />
     </history-entry>
@@ -248,14 +245,17 @@
     <history-entry file="Unittests_in_servers_tests_py - 2019.12.09 at 16h 51m 12s.xml">
       <configuration name="Unittests in servers_tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_servers_tests_py - 2019.12.09 at 16h 59m 39s.xml">
+      <configuration name="Unittests in servers_tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12387000" />
+    <option name="totallyTimeSpent" value="12411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07516778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07583892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-416">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
