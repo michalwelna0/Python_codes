@@ -58,7 +58,7 @@ class ListServer(Server):
         if len(list_products) > self.n_max_returned_entries:
             raise TooManyProductsFoundError
         if not list_products:
-            raise NotEnoughProductsFoundError
+            return list_products
         return sorted(list_products, key = lambda product: product.price)
 
 
@@ -76,8 +76,8 @@ class MapServer(Server):
                 list_products.append(self.dict_prod[name])
         if len(list_products) > self.n_max_returned_entries:
             raise TooManyProductsFoundError
-        if not list_products:
-            raise NotEnoughProductsFoundError
+        if list_products is []:
+            return list_products
         return sorted(list_products, key = lambda product: product.price)
 
 
@@ -89,10 +89,11 @@ class Client:
     def get_total_price(self, n_letters: Optional[int]) -> Optional[float]:
         try:
             searched_products = self.server.get_searched_products(n_letters)
+            if not searched_products:
+                return None
         except TooManyProductsFoundError:
             return None
-        except NotEnoughProductsFoundError:
-            return None
+
 
         total_price = 0
         for prod in searched_products:

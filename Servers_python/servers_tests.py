@@ -51,30 +51,51 @@ class CheckIfSorted(unittest.TestCase):
 
 class CheckIfisNoneinListServer(unittest.TestCase):
 
-    def test_None(self):
+    def test_None_If_tooMany(self):
         products = [Product('PP234', 2), Product('PP235', 3), Product('PP236', 4), Product('PP237', 5)]
         server = ListServer(products)
         client = Client(server)
         prod = client.get_total_price(2)
         self.assertEqual(prod,None)
 
+    def test_None_If_not_enough(self):
+        products = []
+        server = ListServer(products)
+        client = Client(server)
+        prod = client.get_total_price(2)
+        self.assertEqual(prod, None)
+
 class CheckIfisNoneinMapServer(unittest.TestCase):
 
-    def test_None(self):
+    def test_None_If_tooMany(self):
         products = [Product('PP234', 2), Product('PP235', 3), Product('PP236', 4), Product('PP237', 5)]
         server = MapServer(products)
         client = Client(server)
         prod = client.get_total_price(2)
         self.assertEqual(prod,None)
 
+    def test_None_If_not_enough(self):
+        products = []
+        server = MapServer(products)
+        client = Client(server)
+        prod = client.get_total_price(2)
+        self.assertEqual(prod, None)
+
+
 class NotEnoughProductsTest(unittest.TestCase):
 
-    def test_raise_error(self):
+    def test_return_emptyList_fromListServer(self):
         products = []
-        for server_type in server_types:
-            server = server_type(products)
-            with self.assertRaises(NotEnoughProductsFoundError):
-                prods = server.get_searched_products(2)
+        prod = ListServer(products)
+        emptylist = prod.get_searched_products(2)
+        self.assertEqual(emptylist,[])
+
+    def test_return_emptyList_fromMapServer(self):
+        products = []
+        prod = MapServer(products)
+        emptylist = prod.get_searched_products(2)
+        self.assertEqual(emptylist,[])
+
 
 
 
