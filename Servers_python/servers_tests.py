@@ -16,7 +16,7 @@ class ServerTest(unittest.TestCase):
         products = [Product('P12', 1), Product('PP234', 2), Product('PP235', 1)]
         for server_type in server_types:
             server = server_type(products)
-            entries = server.get_searched_products(2)
+            entries = server.get_entries(2)
             self.assertEqual(Counter([products[2], products[1]]), Counter(entries))
 
 
@@ -37,7 +37,7 @@ class TooManyProductsTest(unittest.TestCase):
         for server_type in server_types:
             server = server_type(products)
             with self.assertRaises(TooManyProductsFoundError):
-                prods = server.get_searched_products(2)
+                prods = server.get_entries(2)
 
 
 class CheckIfSorted(unittest.TestCase):
@@ -46,7 +46,7 @@ class CheckIfSorted(unittest.TestCase):
         products = [Product('PP234',500), Product('PP235',520), Product('PP236',30)]
         for server_type in server_types:
             server = server_type(products)
-            prods = server.get_searched_products(2)
+            prods = server.get_entries(2)
             self.assertEqual([products[2],products[0],products[1]],prods)
 
 class CheckIfisNoneinListServer(unittest.TestCase):
@@ -87,13 +87,13 @@ class NotEnoughProductsTest(unittest.TestCase):
     def test_return_emptyList_fromListServer(self):
         products = []
         prod = ListServer(products)
-        emptylist = prod.get_searched_products(2)
+        emptylist = prod.get_entries(2)
         self.assertEqual(emptylist,[])
 
     def test_return_emptyList_fromMapServer(self):
         products = []
         prod = MapServer(products)
-        emptylist = prod.get_searched_products(2)
+        emptylist = prod.get_entries(2)
         self.assertEqual(emptylist,[])
 
 

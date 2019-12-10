@@ -37,20 +37,21 @@ class Server(ABC):
     n_max_returned_entries = 3
 
     @abstractmethod
-    def get_searched_products(self, n: int = 1):
+    def get_entries(self, n_letters: int = 1):
         pass
 
 
 class ListServer(Server):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.products = self.product_list
 
-    def get_searched_products(self, n :int) -> List[Product]:
+    def get_entries(self, n_letters :int) -> List[Product]:
         list_products = []
-        for prod in self.product_list:
+        for prod in self.products:
             letters = re.split('(\d+)', prod.name)[0]
             numbers = re.split('(\d+)', prod.name)[1]
-            if len(letters) == n and 2<=len(numbers)<=3:
+            if len(letters) == n_letters and 2<=len(numbers)<=3:
                 list_products.append(prod)
         if len(list_products) > self.n_max_returned_entries:
             raise TooManyProductsFoundError
@@ -62,15 +63,15 @@ class ListServer(Server):
 class MapServer(Server):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.dict_prod = self.list_to_dict()
+        self.products = self.list_to_dict()
 
-    def get_searched_products(self, n: int) -> List[Product]:
+    def get_entries(self, n_letters: int) -> List[Product]:
         list_products = []
-        for name in self.dict_prod.keys():
+        for name in self.products.keys():
             letters = re.split('(\d+)', name)[0]
             numbers = re.split('(\d+)', name)[1]
-            if len(letters) == n and 2<=len(numbers)<=3:
-                list_products.append(self.dict_prod[name])
+            if len(letters) == n_letters and 2<=len(numbers)<=3:
+                list_products.append(self.products[name])
         if len(list_products) > self.n_max_returned_entries:
             raise TooManyProductsFoundError
         if list_products is []:
@@ -85,7 +86,7 @@ class Client:
 
     def get_total_price(self, n_letters: Optional[int]) -> Optional[float]:
         try:
-            searched_products = self.server.get_searched_products(n_letters)
+            searched_products = self.server.get_entries(n_letters)
             if not searched_products:
                 return None
         except TooManyProductsFoundError:
